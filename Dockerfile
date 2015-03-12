@@ -8,3 +8,4 @@ RUN apt-get update && apt-get install -y \
   unzip
 
 RUN touch /home/welcome.txt
+RUN touch /home/TestRepositoryLinks.txt
