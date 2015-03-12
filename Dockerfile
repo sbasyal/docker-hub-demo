@@ -6,3 +6,5 @@ MAINTAINER sabin.basyal@docker.com
 RUN apt-get update && apt-get install -y \
   openjdk-7-jdk \
   unzip
+
+RUN touch /home/welcome.txt
