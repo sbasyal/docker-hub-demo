@@ -2,7 +2,7 @@ FROM debian:latest
 
 MAINTAINER sabin.basyal@docker.com
 
-// Install Java 7
+# Install Java 7
 RUN apt-get update && apt-get install -y \
   openjdk-7-jdk \
   unzip
